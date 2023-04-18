@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Eater&family=Griffy&family=Nosifer&display=swap');
+
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+body {
+    background: linear-gradient(rgb(16, 14, 38),rgb(76, 63, 115) ) ;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    line-height: 1.5;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#icon  {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 2rem;
+
+}
+
+a {
+    text-decoration:none;
+}
+i {
+    color: yellow;
+    margin-right: 2rem;
+}
+h1 {
+    /* font-family: 'Griffy', cursive; */
+    font-family: 'Nosifer', cursive;
+    color: rgb(112, 222, 69);
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 10rem;
+}
+h2 {
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+main {
+    font-family:'Courier New', Courier, monospace;
+}
+.ml3, p{
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 2rem;
+}
+
+p{
+    color: white;
+}
+#center {
+    display: flex;
+    justify-content: center;
+}
+button {
+    font-family:'Courier New', Courier, monospace;
+    background-color:yellow;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 33vw;
+}
+button:hover {
+    background-color: rgb(65, 118, 45,0.8);
+    color:  white;
+}
+.hide{
+    display:none;
+}
+#more {
+    background-color: rgb(65, 118, 45,0.8);
+    border: none;
+    border-radius: 30px;
+    padding: 1rem;
+}
+em {
+    font-size: 2rem;
+    color: yellow;
+}
+.loca:hover {
+    fill: white;
+    /* cursor: pointer; */
+    }
+
+#big_map {
+    margin-top: 4rem;
+}
+
+/* map */
+
+#pMap {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 0;
+    margin-right: 0;
+    color: rgb(17, 13, 26);
+    background-color: rgb(244, 239, 219);
+    padding: .8rem;
+    border-radius: 25px;
+    text-align: center;
+}
+
+
+@media all and (max-width:900px){
+    body {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    h1 {
+        font-size: 2rem;
+        margin-top: 5rem;
+    }
+    /* h2 {
+        font-size: 1.8rem;
+    } */
+    .ml3 {
+        font-size: 1.7rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+    em {
+        font-size: 1.5rem;
+    }
+    button {
+        padding: 4px;
+        width: 66vw;
+        word-wrap: break-word;
+    }
+}
+
+@media all and (max-width:600px){
+    .fa-3x {
+        font-size: 2em;
+    }
+    h1{
+        font-size: 2rem;
+        margin-top: 10rem;
+    }
+    /* h2 {
+        font-size: 1.rem;
+    } */
+    .ml3 {
+        font-size: 1.4rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    em {
+        font-size: 1.2rem;
+    }
+}
